@@ -12,7 +12,7 @@ on:
 jobs:
   build-java:
 
-    runs-on: ${{matrix.os}}
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         os: [ubuntu-letest, window-letest ,macOS-letest]
